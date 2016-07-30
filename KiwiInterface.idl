@@ -1,0 +1,16 @@
+import "oaidl.idl";
+import "ocidl.idl";
+[
+	uuid(1404F9FF-0A52-44B1-BF3E-56D89DED79A7), //
+	version(1.0),
+	pointer_default(unique)
+]
+interface KiwiInterface
+{
+	typedef struct _MYSTRUCT_TYPE {
+		DWORD simpleValue;
+		[string,unique] WCHAR *Name;
+		DWORD cbElements;
+		[size_is(cbElements)] DWORD *elements;
+	} MYSTRUCT_TYPE, *PMYSTRUCT_TYPE;
+}

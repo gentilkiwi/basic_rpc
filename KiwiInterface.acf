@@ -1,0 +1,9 @@
+[  
+    nocode, /* avoid dealing with all types
+	/* encode, decode, */
+    explicit_handle
+]     
+interface KiwiInterface
+{
+	typedef [ encode, decode ] MYSTRUCT_TYPE; /* only dealing with this particular type */
+}
