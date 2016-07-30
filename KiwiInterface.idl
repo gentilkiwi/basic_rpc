@@ -1,7 +1,12 @@
+/*	Benjamin DELPY `gentilkiwi`
+	http://blog.gentilkiwi.com
+	benjamin@gentilkiwi.com
+	Licence : https://creativecommons.org/licenses/by/4.0/
+*/
 import "oaidl.idl";
 import "ocidl.idl";
 [
-	uuid(1404F9FF-0A52-44B1-BF3E-56D89DED79A7), //
+	uuid(1404F9FF-0A52-44B1-BF3E-56D89DED79A7), // random
 	version(1.0),
 	pointer_default(unique)
 ]

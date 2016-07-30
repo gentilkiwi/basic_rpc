@@ -1,3 +1,8 @@
+/*	Benjamin DELPY `gentilkiwi`
+	http://blog.gentilkiwi.com
+	benjamin@gentilkiwi.com
+	Licence : https://creativecommons.org/licenses/by/4.0/
+*/
 #include "generic_rpc.h"
 
 // IDL & ACF	https://msdn.microsoft.com/library/windows/desktop/aa378708.aspx
