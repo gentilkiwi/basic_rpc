@@ -76,9 +76,7 @@ void generic_rpc_Free(PVOID pObject, PGENERIC_RPC_FREE fFree)
 	if(NT_SUCCESS(rpcStatus))
 	{
 		RpcTryExcept
-		{
 			fFree(pHandle, pObject);
-		}
 		RpcExcept(EXCEPTION_EXECUTE_HANDLER)
 			wprintf(L"[ERROR] RPC Free Exception: 0x%08x (%u)\n", RpcExceptionCode(), RpcExceptionCode());
 		RpcEndExcept

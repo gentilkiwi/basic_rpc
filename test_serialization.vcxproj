@@ -60,6 +60,7 @@
       <GenerateServerFiles>None</GenerateServerFiles>
       <ClientStubFile>%(Filename).c</ClientStubFile>
       <TargetEnvironment>$(Platform)</TargetEnvironment>
+      <AdditionalOptions>/target NT51 /protocol dce %(AdditionalOptions)</AdditionalOptions>
     </Midl>
   </ItemGroup>
   <ItemGroup>
