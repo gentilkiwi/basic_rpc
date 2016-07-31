@@ -1,7 +1,9 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test_serialization", "test_serialization.vcxproj", "{D9D89516-3232-49C6-AF45-66B8112A70BC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test_call", "test_call.vcxproj", "{B2DF26C2-5DFF-44CF-B526-FC32CAF3B8A2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6C6AC5D4-47BA-41D0-A682-2A2C08CAD695}"
 	ProjectSection(SolutionItems) = preProject
@@ -22,6 +24,10 @@ Global
 		{D9D89516-3232-49C6-AF45-66B8112A70BC}.Release|Win32.Build.0 = Release|Win32
 		{D9D89516-3232-49C6-AF45-66B8112A70BC}.Release|x64.ActiveCfg = Release|x64
 		{D9D89516-3232-49C6-AF45-66B8112A70BC}.Release|x64.Build.0 = Release|x64
+		{B2DF26C2-5DFF-44CF-B526-FC32CAF3B8A2}.Release|Win32.ActiveCfg = Release|Win32
+		{B2DF26C2-5DFF-44CF-B526-FC32CAF3B8A2}.Release|Win32.Build.0 = Release|Win32
+		{B2DF26C2-5DFF-44CF-B526-FC32CAF3B8A2}.Release|x64.ActiveCfg = Release|x64
+		{B2DF26C2-5DFF-44CF-B526-FC32CAF3B8A2}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

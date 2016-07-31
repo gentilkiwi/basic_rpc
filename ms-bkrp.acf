@@ -1,0 +1,14 @@
+/*	Benjamin DELPY `gentilkiwi`
+	http://blog.gentilkiwi.com
+	benjamin@gentilkiwi.com
+	Licence : https://creativecommons.org/licenses/by/4.0/
+*/
+[  
+	nocode, /* avoid dealing with all types
+	/* encode, decode, */
+	explicit_handle
+]     
+interface BackupKey
+{
+	[code] BackuprKey();
+}

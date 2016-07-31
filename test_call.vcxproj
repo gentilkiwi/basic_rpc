@@ -11,9 +11,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{D9D89516-3232-49C6-AF45-66B8112A70BC}</ProjectGuid>
+    <ProjectGuid>{B2DF26C2-5DFF-44CF-B526-FC32CAF3B8A2}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>test_serialization</RootNamespace>
+    <RootNamespace>test_call</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Label="Configuration">
@@ -55,26 +55,26 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <Midl Include="KiwiInterface.idl">
+    <Midl Include="ms-bkrp.idl">
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <GenerateTypeLibrary>false</GenerateTypeLibrary>
       <GenerateServerFiles>None</GenerateServerFiles>
-      <ClientStubFile>%(Filename).c</ClientStubFile>
+      <ClientStubFile>%(Filename)_c.c</ClientStubFile>
       <TargetEnvironment>$(Platform)</TargetEnvironment>
       <AdditionalOptions>/target NT51 /protocol dce %(AdditionalOptions)</AdditionalOptions>
     </Midl>
   </ItemGroup>
   <ItemGroup>
-    <None Include="KiwiInterface.acf" />
+    <None Include="ms-bkrp.acf" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="generic_rpc.h" />
-    <ClInclude Include="KiwiInterface.h" />
+    <ClInclude Include="ms-bkrp.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="generic_rpc.c" />
-    <ClCompile Include="KiwiInterface.c" />
-    <ClCompile Include="test_serialization.c" />
+    <ClCompile Include="ms-bkrp_c.c" />
+    <ClCompile Include="test_call.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets" />
